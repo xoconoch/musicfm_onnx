@@ -14,3 +14,5 @@ python export_onnx.py
 ```
 
 Then it will output the onnx embedding model with its weights. A copy of this is available in the release.
+
+You can test the parity of these models with the `test_onnx.py` file.
