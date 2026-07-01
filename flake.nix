@@ -26,9 +26,12 @@
               (python3.withPackages (
                 ps: with ps; [
                   onnx
+                  onnxscript
+                  onnxruntime
                   torch
                   torchaudio
                   einops
+                  transformers
                 ]
               ))
             ];
